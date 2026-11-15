@@ -1,0 +1,16 @@
+# Build output and fetched dependencies
+build/
+_deps/
+*.obj
+*.o
+*.pdb
+*.ilk
+*.log
+
+# Vocoder weights (CC BY-NC-SA 4.0): fetched by build_windows.bat / fetch_model.py, keep model/NOTICE.txt tracked
+model/*.onnx
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/

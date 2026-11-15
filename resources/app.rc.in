@@ -1,0 +1,32 @@
+#include <windows.h>
+
+1 24 "@MANIFEST_FILE_RC@"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,6,0
+ PRODUCTVERSION 1,0,6,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "DiffSampler Project\0"
+            VALUE "FileDescription", "DiffSampler UTAU-compatible neural resampler\0"
+            VALUE "FileVersion", "1.0.6\0"
+            VALUE "InternalName", "DiffSampler\0"
+            VALUE "OriginalFilename", "DiffSampler.exe\0"
+            VALUE "ProductName", "DiffSampler\0"
+            VALUE "ProductVersion", "1.0.6\0"
+            VALUE "LegalCopyright", "Copyright (c) DiffSampler contributors\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END
